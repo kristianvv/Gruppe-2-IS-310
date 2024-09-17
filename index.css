@@ -1,0 +1,174 @@
+/* Generel Stil på hele nettsiden */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #333;
+}
+
+/* Welcome section styling */
+.welcome {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.welcome h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.welcome p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Om oss på index.html */
+.container {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.container h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.container p {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+}
+
+.container p + p {
+    margin-top: 20px;
+}
+
+/* Personer */
+.team-member {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.team-member .text-content {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.team-member .text-content h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.team-member .text-content p {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.team-member .image-content {
+    padding: 20px;
+}
+
+.team-member .image-content img {
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+/* Kontakt Oss */
+.contact-section {
+    padding: 40px 20px; 
+    padding-right: 40px; 
+    margin-left: 20px; 
+}
+
+.contact-section h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-info li {
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .team-member {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .team-member .image-content {
+        margin-bottom: 1rem;
+    }
+}
+
