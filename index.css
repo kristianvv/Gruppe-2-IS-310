@@ -157,6 +157,10 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.paragraph-about {
+    line-height: 15px;
+}
+
 h2, h3 {
     color: #333;
 }
